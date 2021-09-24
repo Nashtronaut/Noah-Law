@@ -1,0 +1,66 @@
+﻿.page-container {
+    width: 100vw;
+    text-align: center;
+    
+}
+
+.header-container {
+    position: relative;
+}
+header img {
+    width: 60vw;
+}
+
+.header-container h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-family: "Raleway", sans-serif;
+    text-shadow: 0 6px 3px rgba(0, 0, 0, 0.8);
+}
+
+h2 span {
+    display: block;
+    font-size: 7vw;
+    margin: 8px;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 4vh;
+    background-color: #271f22;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 8px;
+    opacity: 0.8;
+    width: 25vw;
+}
+
+.nav-bar a:hover {
+    transition-duration: 1s;
+    opacity: 1;
+    text-decoration: underline;
+    background-color: #40373a;
+}
+
+
+
+.youtube {
+    width: 80vw;
+}
+
+/*addelle sands
+castillo
+purple color: #271f22
+*/
