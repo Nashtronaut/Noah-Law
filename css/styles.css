@@ -51,6 +51,7 @@ h2 span {
     display: flex;
     justify-content: space-evenly;
     height: 6.5vh;
+    max-height: 120px;
     background-color: #271f22;
     margin: 0 auto;
     text-align: center;
@@ -62,13 +63,13 @@ h2 span {
     align-items: center;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
-    font-size: 100%;
+    font-size: 1.8vh;
     color: white;
     opacity: 0.8;
     width: 25%;
     height: 100%;
     margin: 0 auto;
-    
+    transition-duration: 1s;
 }
 
 .nav-bar a:hover {
