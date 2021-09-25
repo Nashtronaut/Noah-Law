@@ -208,6 +208,13 @@ h1 {
     background-color: #4f4649;
 }
 
+.petition a:visited {
+    opacity: 0.8;
+    color: white;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
 footer {
     position: sticky;
     bottom: 0;
