@@ -140,6 +140,27 @@ footer {
     background-color: #271f22;
 }
 
+.petition
+{
+    background-color: #271f22;
+    box-shadow: 0 0 3px 1px #271f229f;
+    border: none;
+    border-radius: 5px;
+    max-width: 50%;
+    font-family: "Raleway", sans-serif;
+    padding: 0.5rem;
+    margin: 0 auto;
+}
+
+.petition a:link
+{
+    color: white;
+}
+.petition a:hover
+{
+    text-shadow: 0 0 5px white;
+}
+
 /*addelle sands
 castillo
 purple color: #271f22
