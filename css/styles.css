@@ -116,12 +116,12 @@ h1 {
 .flexbox-main-page div ul {
     display: flex;
     flex-flow: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-family: 'Playfair Display', sans-serif;
     font-size: 2.5vw;
     line-height: 2;
     text-align: left;
-    padding: 20px 10px;
+    padding: 10px 20px;
     height: 100%;
     border: 2px solid #271f22;
 }
@@ -176,10 +176,11 @@ h1 {
 
     .page-paragraph {
         font-size: 1.4vw;
+        line-height: 2;
     }
     
     .flexbox-main-page div ul {
-        font-size: 1.5vw;
+        font-size: 1.4vw;
         font-family: 'Playfair Display', sans-serif;
     }
     
