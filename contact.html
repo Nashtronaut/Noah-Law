@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500;1,700&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reboot.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+    <div class="page-container">
+        <header>
+            <h2 class="hidden">Webpage Nav Bar</h2>
+            <nav class="nav-bar">
+                <a href="index.html">Home</a>
+                <a href="#">Facebook</a>
+                <a href="#">Donate</a>
+                <a href="#">Petition</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <h1 class="contact-us">Get In Touch</h1>
+
+            <form id="contact-form" class="contact-form">
+     
+                <div class="form-control user-name">
+                 <label for="userName">Your Name</label>
+                 <input id="userName" type="text" placeholder="Your Name Here" tabindex="1">
+                 <p class="warning nameWarning"></p>
+                </div>
+     
+                <div class="form-control email-address">
+                 <label for="userName">Your Email Address</label>
+                 <input id="email" type="email" placeholder="eg. janedoe@gmail.com" tabindex="2">
+                 <p class="warning emailWarning"></p>
+                </div>
+
+                <div class="form-control message-box">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" type="textarea" tabindex="3"></textarea>
+                    <p class="warning messageWarning"></p>
+                </div>
+     
+                <div class="submit">          
+                 <button type="submit" tabindex="4">Send Message</button>
+                </div>
+     
+            </form>
+        </main>
+    </div>
+</body>
+</html>
