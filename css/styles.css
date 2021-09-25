@@ -15,11 +15,7 @@
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
-    /*border-left: 10px solid #271f22;
-    border-top: 10px solid #271f22;
-    border-right: 10px solid #271f22;*/
 }
-
 
 header img {
     width: 100%;
@@ -75,28 +71,31 @@ h2 span {
 .nav-bar a:hover {
     transition-duration: 1s;
     opacity: 1;
-    background-color: #40373a;
+    background-color: #4f4649;
 }
 
 h1 {
     font-family: "Raleway", sans-serif;
-    font-weight: bold;
+    font-weight: lighter;
     font-size: 5vw;
-    margin: 10px auto;
+    margin: 1rem auto;
     width: 50%;
     text-decoration: underline;
     color: #271f22;
 }
 
+.flexbox-main-page div {
+    margin: 10px auto;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+}
+
 .page-paragraph {
-    width: 100%;
-    margin: 0 auto;
     font-size: 2.2vw;
     line-height: 1.5;
     font-family: 'Playfair Display', sans-serif;
-    border: 1px solid #271f22;
-    padding: 30px;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+    border: 2px solid #271f22;
+    padding: 10px 30px;
+    text-align: left;
 }
 
 .page-paragraph span {
@@ -111,40 +110,111 @@ h1 {
     text-transform: capitalize;
 }
 
+.flexbox-main-page div ul {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    font-size: 2.2vw;
+    line-height: 2;
+    text-align: left;
+    padding: 10px 30px;
+    height: 100%;
+    border: 2px solid #271f22;
+}
+
+.flexbox-main-page div ul span {
+    color: red;
+}
+
 .video-container {
     position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
     overflow: hidden;
-    margin: 10px auto;
-    border: 1px solid #271f22;
+    height: 0;
+    padding-bottom: 56.25%;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+    border: 2px solid #271f22;
 }
 
 .video-container iframe,
-.video-container object,
 .video-container embed {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    max-width: 100%;
+}
+
+.video-wrap {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+@media screen and (min-width: 992px) {
+    .content-container {
+        width: 100%;
+    }
+
+    .flexbox-main-page {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+
+    .flexbox-main-page div {
+        width: 48%;
+    }
+    
+    .flexbox-main-page div ul li {
+        margin-bottom: 10px;
+    }
+
+    .page-paragraph {
+        font-size: 1.4vw;
+    }
+    
+    .flexbox-main-page div ul {
+        font-size: 1.5vw;
+        font-family: 'Playfair Display', sans-serif;
+    }
+    
+}
+
+.petition
+{
+    display: block;
+    background-color: #271f22;
+    box-shadow: 0 0 3px 1px #271f229f;
+    border: none;
+    border-radius: 2px;
+    font-family: "Raleway", sans-serif;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.petition a:link
+{
+    display: block;
+    opacity: 0.8;
+    color: white;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+.petition a:hover
+{
+    transition-duration: 1s;
+    opacity: 1;
+    background-color: #4f4649;
 }
 
 footer {
-    position: absolute;
+    position: sticky;
     bottom: 0;
     width: 100%;
     height: 6.5vh;
     background-color: #271f22;
 }
-
-/*addelle sands
-castillo
-purple color: #271f22
-*/
-
 
 /* 
     CONTACT FORM START
