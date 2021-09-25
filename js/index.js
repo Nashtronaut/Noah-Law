@@ -9,36 +9,15 @@ window.addEventListener('load', function(e) {
     const messageSent = document.querySelector('.alert')
     
         inputForm.addEventListener('submit', function(event){
-            event.preventDefault()
+            // event.preventDefault()
             let isValid = false;
 
            isValid = validation(nameInput, emailInput, messageInput);
 
            if(isValid)
            {
-                function sendEmail()
-                {
-                    Email.send(
-                    {
-                        Host: "smtp.gmail.com",
-                        Username: "sender@email_address.com",
-                        Password: "Enter your password",
-                        To: 'receiver@email_address.com',
-                        From: "sender@email_address.com",
-                        Subject: "Sending Email using javascript",
-                        Body: "Well that was easy!!",
-                        Attachments: [
-                        {
-                            name: "File_Name_with_Extension",
-                            path: "Full Path of the file"
-                         }]
-                    })
-                  .then(function (message) 
-                  {
-                    alert("Mail has been sent successfully")
-                  });
-                }
                 messageSent.classList.remove('hidden')
+                { return true; }
            }
         })
     
