@@ -155,7 +155,9 @@ h1 {
         font-size: 1.4vw;
         font-family: 'Playfair Display', sans-serif;
     }
-}.petition {
+}
+
+.petition {
      display: block;
      background-color: #271f22;
      box-shadow: 0 0 3px 1px #271f229f;
@@ -187,11 +189,7 @@ h1 {
     transition-duration: 1s;
 }
 footer {
-    position: sticky;
-    bottom: 0;
-    width: 100%;
-    height: 6.5vh;
-    background-color: #271f22;
+    
 }
 .hidden {
     display: none;
@@ -286,12 +284,94 @@ input:focus, textarea:focus {
 .closebtn:hover {
     color: #000;
 }
+
+.petition-page-header {
+    font-size: 5vw;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.petition-page-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    line-height: 1.8;
+    
+}
+
+.petition-page-info {
+    font-size: 2vh;
+    margin: 10px 20px;
+    width: 90%;
+    border: 2px solid #271f22;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .8);
+    text-align: left;
+    font-family: 'Playfair Display', sans-serif;
+    padding: 20px;
+}
+
+.petition-page-info ul {
+    margin: 20px 0;
+    line-height: 2;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px){
+    .petition-page-info {
+        font-size: 2.3vh;
+    }
+}
+
+.petition-page-info h2 {
+    margin: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.petition-button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #271f22;
+    box-shadow: 0 0 3px 1px #271f229f;
+    border: none;
+    border-radius: 2px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    width: 60%;
+    margin: 30px auto 0;
+    text-decoration: none;
+    transition-duration: 1s;
+    color: #fff;
+}
+
+a.petition-button:hover {
+    transition-duration: 1s;
+    opacity: 1;
+    background-color: #4f4649;
+}
+
+.email {
+    color: #271f22;
+    transition-duration: 1s;
+}
+
+.email:hover {
+    color: #4f4649;
+}
+
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     margin: 0 auto;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #271f22;
 }
 .footer a {
     transition-duration: 1s;

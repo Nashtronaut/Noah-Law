@@ -11,8 +11,8 @@ window.addEventListener('load', function(e) {
         inputForm.addEventListener('submit', function(event){
             // event.preventDefault()
             let isValid = false;
-
-           isValid = validation(nameInput, emailInput, messageInput);
+            
+            isValid = validation(nameInput, emailInput, messageInput);
 
            if(isValid)
            {
