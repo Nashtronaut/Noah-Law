@@ -298,7 +298,6 @@ input:focus, textarea:focus {
     flex-flow: row wrap;
     justify-content: space-evenly;
     line-height: 1.8;
-    
 }
 
 .petition-page-info {
