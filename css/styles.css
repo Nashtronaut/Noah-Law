@@ -389,3 +389,13 @@ footer img {
     max-height: 4vh;
     align-items: center;
 }
+
+.temp {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 45rem;
+    text-align: center;
+    font-size: 3rem;
+}
