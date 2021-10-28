@@ -397,5 +397,6 @@ footer img {
     align-items: center;
     height: 45rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    padding: 1rem;
 }
